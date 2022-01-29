@@ -20,6 +20,7 @@ public class Reinas {
 	    String cc [][] = tablero;
     	for (int i = 0; i < cc.length; i++) {
     		for (int j = 0; j < cc[0].length; j++){
+    			System.out.println("Pocicion en X->"+i+" Pocicion en Y->"+j+" ===>"+cc[i][j]);
 				if(cc[i][j].equals(reina)) {
 					count++;
 				}
